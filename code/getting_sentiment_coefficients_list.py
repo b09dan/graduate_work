@@ -1,6 +1,6 @@
 def getting_sentiment_coefficients_list():
     from os import walk
-    from sentiment_analysis import sentiment_analysis
+    from code.sentiment_analysis import sentiment_analysis
     files_with_news = []
     for (dirpath, dirnames, filenames) in walk('news/'):
         files_with_news.extend(filenames)

@@ -2,7 +2,7 @@ def sentiment_analysis(day):
     import csv
     from collections import defaultdict
     import numpy as np
-    from xml_2_array import xml_2_array
+    from code.xml_2_array import xml_2_array
 
     day_array = xml_2_array(day)  # receiving a two dimensional array of articles
 

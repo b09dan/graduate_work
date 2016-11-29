@@ -1,5 +1,5 @@
 def connecting_function(articles):
-    from stemming_articles import stemming_articles
+    from code.stemming_articles import stemming_articles
 
     print("Всего получено", len(articles), "статей.")
     i = 0

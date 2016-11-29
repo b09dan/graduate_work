@@ -1,9 +1,12 @@
 # Some theory: http://scialert.net/fulltext/?doi=tasr.2011.1141.1157&org=10
 # lib url: http://textblob.readthedocs.org/en/dev/api_reference.html#module-textblob.en.sentiments
 # also some detailed tutorial for Bayes classification: http://andybromberg.com/sentiment-analysis-python/#fnref:1
-from textblob import TextBlob
-from xml_2_array import xml_2_array
 from os import walk
+
+from textblob import TextBlob
+
+from xml_2_array import xml_2_array
+
 dir = input('Enter files directory: ')
 report_name = input('Please, enter report name: ')
 files_with_news = []

@@ -1,7 +1,10 @@
-from connecting_function import connecting_function
-from lxml import etree
-import time
 import datetime
+import time
+
+from lxml import etree
+
+from code.connecting_function import connecting_function
+
 
 def parsing_news_omitted():
     from urllib.request import urlopen  # Library for urlopen
